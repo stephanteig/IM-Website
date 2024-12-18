@@ -10,9 +10,10 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Artikkel</a>
-        <a href="#">Hør fra elevene</a>
-        <a href="#">Om Glemmen IM</a>
+        <a href="index.html">Home</a>
+        <a href="artikkel.html">Artikkel</a>
+        <a href="horfraelevene.html">Hør fra elevene</a>
+        <a href="omglemmenim.html">Om Glemmen IM</a>
   
       </div>
 
@@ -29,7 +30,11 @@
             }
         </script>
 
-        <img alt="Glemmen videregående skole" src="media/86f0a.glemmen_s_h.svg" style="width: 15%;">
+        <img 
+        alt="Glemmen videregående skole" 
+        src="media/86f0a.glemmen_s_h.svg" 
+        style="width: 15%; filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(200%) contrast(100%);">
+
 
         <h1>Informasjonsteknologi & Medieproduksjon</h1>        
 
@@ -38,35 +43,38 @@
     <section>
         <article>
             <h2>Artikkel</h2>
-            <img src="media/noimage.jpg" style="width: 50%;"/>
-            <a>Les mer</a>
+            <img src="media/artikkel.jfif" style="width: 50%;"/>
+            <a class="gay" href="artikkel.html">Les mer</a>
         </article>
         <article>
             <h2>Hør fra elevene</h2>
-            <img src="media/noimage.jpg" style="width: 50%;"/>
-            <a>Les mer</a>
+            <img src="media/KETIL.jpg" style="width: 50%;"/>
+            <a class="gay" href="horfraelevene.html">Les mer</a>
         </article>
         <article>
             <h2>Om oss</h2>
-            <img src="media/noimage.jpg" style="width: 50%;"/>
-            <a>Les mer</a>
+            <img src="media/im.jpg" style="width: 50%;"/>
+            <a class="gay" href="omglemmenim.html">Les mer</a>
         </article>
     </section>
 
     <footer>
-        <a href="https://www.instagram.com/glemmen_im/" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>
-            <p>IM INSTAGRAM</p>
-        </a>
-        <a href="https://www.instagram.com/glemmen_vgs/" target="_blank">
-            <ion-icon name="logo-instagram"></ion-icon>                
-            <p>GLEMMEN INSTAGRAM</p>
-        </a>
-
-
-        <p>Glemmen Vidregående Skole</p>
-        <p>Traraveien 13, 1605 Fredrikstad</p>
-        <p>TLF: 69 95 56 00</p>
+        <div class="footer-links">
+            <a href="https://www.instagram.com/glemmen_im/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <span>IM Instagram</span>
+            </a>
+            <a href="https://www.instagram.com/glemmen_vgs/" target="_blank">
+                <ion-icon name="logo-instagram"></ion-icon>
+                <span>Glemmen Instagram</span>
+            </a>
+        </div>
+    
+        <div class="footer-info">
+            <p>Glemmen Videregående Skole</p>
+            <p>Traraveien 13, 1605 Fredrikstad</p>
+            <p>TLF: 69 95 56 00</p>
+        </div>
     </footer>
     
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
